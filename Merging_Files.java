@@ -1,7 +1,5 @@
 package Pack1;
-
 import java.io.*;
-
 public class Merging_Files
 {
     public static void main(String[] args) throws IOException
@@ -16,6 +14,9 @@ public class Merging_Files
         pw2.println("Wali Raza");
         pw2.println("Ali Raza");
         pw2.println("Manzoor Ahmed");
+        pw2.println("Fabiha");
+        pw2.println("Farman bhai");
+        pw2.println("Jabbar Bhai");
         pw2.flush();
         pw2.close();
         PrintWriter pw3=new PrintWriter(new FileWriter("File3.txt"));
